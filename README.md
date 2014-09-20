@@ -21,7 +21,7 @@ git clone https://github.com/dpapathanasiou/MyTeX.git
 
 ## Usage
 
-Edit the <tt>.tex</tt> files in this to your liking (there is plenty of documentation on how to use LaTeX [here](http://latex-project.org/guides/) and [here](http://latex-project.org/guides/)), and use the [Makefile](Makefile).
+Edit the <tt>.tex</tt> files in this repo to your liking (there is plenty of documentation on how to use LaTeX [here](http://latex-project.org/guides/) and [here](http://latex-project.org/guides/)), and use the [Makefile](Makefile).
 
 This command compiles all the <tt>.tex</tt> files to [pdf](http://en.wikipedia.org/wiki/Portable_Document_Format) format:
 
@@ -35,7 +35,7 @@ To start over, just wipe the compiled file with this:
 make clean
 ```
 
-### Document templates
+## Document templates
 
 * Personal Letter
 

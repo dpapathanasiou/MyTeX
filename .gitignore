@@ -3,3 +3,5 @@
 *.log
 *.out
 *.aux
+_*.tex
+_*.pdf
