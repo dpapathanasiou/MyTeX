@@ -1,0 +1,52 @@
+\documentclass[10pt]{letter}
+
+% margins
+% margins are, by default, 1.5 inches wide on 12pt documents, 
+% 1.75 inches wide on 11pt documents, and 
+% 1.875 inches wide on 10pt documents
+% (source: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907057)
+
+\addtolength{\oddsidemargin}{1.125in} % target is 3.0 inches
+\addtolength{\evensidemargin}{1.125in}
+
+\addtolength{\textwidth}{-2.25in} % target is 2.5 inches but TeX goes narrower in the body
+\addtolength{\topmargin}{-1.75in}
+\addtolength{\textheight}{2.5in}
+
+% font settings
+%\renewcommand{\familydefault}{\sfdefault} % helvetica
+% or, to use specific fonts on the system
+% (source: http://stackoverflow.com/a/1840608)
+
+\usepackage{fontspec,xunicode}
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\setmainfont[Scale=1.0]{Liberation Sans Narrow} % /usr/bin/fc-list to get list of available fonts
+\setmonofont{Liberation Mono}
+
+% left-align the \closing and \signature blocks
+\longindentation=0pt
+\address{ } % my address (optional)
+
+\signature{ } % my name (optional, appears under \closing
+
+\begin{document}
+\begin{letter}{Contact Person\\ Company name\\ Street\\ City, State Zip}
+
+\opening{Dear Contact Person:}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante lorem, gravida non interdum eu, rutrum ac est. In sit amet fringilla augue. Sed at fringilla eros. Aenean quis nisi vel purus ultrices dictum. Aliquam imperdiet euismod purus nec cursus. Aliquam maximus egestas tellus id auctor. Vestibulum vitae enim dictum, tincidunt dolor nec, facilisis magna. Duis varius mauris nec volutpat feugiat. Aliquam porta sem eget pretium rhoncus.
+
+Maecenas in mi arcu. Nam sollicitudin, tortor vitae porta placerat, ligula lacus lacinia orci, ut sodales risus neque eget velit. Nulla massa lorem, feugiat sit amet bibendum non, ornare in quam. Sed consequat risus non efficitur iaculis. In hac habitasse platea dictumst. Nullam mauris nunc, laoreet a facilisis id, vestibulum sed magna. Sed fermentum consectetur eros, id ultricies felis pharetra tincidunt. Nullam venenatis lectus a condimentum efficitur. Suspendisse vel ex nisi. Nullam quis ultrices nunc. Integer sagittis orci sed libero bibendum, id consectetur justo vehicula.
+
+Aliquam erat volutpat. Sed sollicitudin felis ex, sit amet ultricies dui mollis eget. Aenean maximus lacus quis ligula iaculis finibus. Quisque interdum, velit sit amet placerat tristique, augue ex vehicula elit, vitae feugiat eros odio sit amet velit. Donec elementum mi a egestas auctor. Etiam ex mi, ornare sit amet pharetra quis, dapibus eu ligula. Nulla facilisi.
+
+\dots
+
+\closing{Sincerely,}
+
+% optional stuff
+\ps{P.S. I want to tell you more, here.}
+\encl{Enclosures}
+
+\end{letter}
+\end{document}
