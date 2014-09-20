@@ -35,9 +35,13 @@ To start over, just wipe the compiled file with this:
 make clean
 ```
 
-### [Personal Letter](personal-letter.tex)
+### Document templates
 
-The margins have been customized to fit my personal stationery, which looks like this (click to enlarge):
+* Personal Letter
 
-![http://i.imgur.com/SsvPKoH.jpg](http://i.imgur.com/zCs3ffN.jpg "My personal stationery")
+   The margins on [this particulate template](personal-letter.tex) have been customized to fit my personal stationery, which looks like this:
+
+   <a href="http://i.imgur.com/zCs3ffN.jpg" target="_blank"><img src="http://i.imgur.com/SsvPKoH.jpg" border="0" /></a> 
+
+   So the [example pdf output](personal-letter.pdf) may not make complete sense on its own.
 
