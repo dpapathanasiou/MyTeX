@@ -16,7 +16,7 @@ sudo apt-get install texlive-full latex2rtf
 2. Then, just clone this repo:
 
    ```sh
-git clone 
+git clone https://github.com/dpapathanasiou/MyTeX.git
 ```
 
 ## Usage
