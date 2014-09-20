@@ -1,7 +1,7 @@
 # MyTeX
 
 Are traditional paper letters dead? I do still find the need to write them from time to time, so here is my template and Makefile for producing personal letters in [LaTeX](http://www.latex-project.org/), as well as other types of documen
-ts.
+too.
 
 ## Installation
 
