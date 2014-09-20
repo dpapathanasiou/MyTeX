@@ -37,7 +37,7 @@ make clean
 
 ### [Personal Letter](personal-letter.tex)
 
-The margins have been customized to fit my personal stationery, which looks like this:
+The margins have been customized to fit my personal stationery, which looks like this (click to enlarge):
 
-![](http://i.imgur.com/SsvPKoH.jpg "My personal stationery")
+![http://i.imgur.com/SsvPKoH.jpg](http://i.imgur.com/zCs3ffN.jpg "My personal stationery")
 
