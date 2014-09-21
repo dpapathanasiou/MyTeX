@@ -1,7 +1,6 @@
 # MyTeX
 
-Are traditional paper letters dead? I do still find the need to write them from time to time, so here is my template and Makefile for producing personal letters in [LaTeX](http://www.latex-project.org/), as well as other types of documen
-too.
+Are traditional paper letters dead? I do still find the need to write them from time to time, so here is my template and Makefile for producing personal letters in [LaTeX](http://www.latex-project.org/), as well as other types of documents, too.
 
 ## Installation
 
@@ -37,11 +36,14 @@ make clean
 
 ## Document templates
 
-* Personal Letter
+* [Personal Letter](personal-letter.tex)
 
-   The margins on [this particulate template](personal-letter.tex) have been customized to fit my personal stationery, which looks like this:
+   The margins on this particulate template have been customized to fit my personal stationery, which looks like this:
 
    <a href="http://i.imgur.com/zCs3ffN.jpg" target="_blank"><img src="http://i.imgur.com/SsvPKoH.jpg" border="0" /></a> 
 
    So the [example pdf output](personal-letter.pdf) may not make complete sense on its own.
 
+* [Curriculum Vitae/Resume](cv.tex)
+
+   This template is based on the one created by [Jason Blevins](http://jblevins.org/projects/cv-template/), with modifications to import sections from [tex-inputs](tex-inputs) as modular tex files, using [\input](http://www.personal.ceu.hu/tex/input.htm#input).
