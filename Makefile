@@ -1,10 +1,10 @@
 
 SHELL = /bin/sh
 SOURCES = $(shell echo *.tex)
-TARGETS = $(shell echo *.pdf)
+TARGETS = $(SOURCES:.tex=.pdf)
 
-$(TARGETS): $(SOURCES)
-	xelatex $^ 
+%.pdf: %.tex
+	xelatex $^
 
 all: $(TARGETS)
 
