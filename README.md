@@ -34,6 +34,8 @@ To start over, just wipe the compiled file with this:
 make clean
 ```
 
+Any tex file starting with underscore ("<tt>_</tt>") is ignored by git, and can be used for maintaining personal documents not subject to source control. 
+
 ## Document templates
 
 * [Personal Letter](personal-letter.tex)
