@@ -28,6 +28,12 @@ This command compiles all the <tt>.tex</tt> files to [pdf](http://en.wikipedia.o
 make all
 ```
 
+LaTeX creates several log and auxiliary files which are usually not needed once the pdf is created. These can be cleared with this command: 
+
+```sh
+make tidy
+```
+
 To start over, just wipe the compiled file with this:
 
 ```sh

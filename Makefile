@@ -10,3 +10,6 @@ all: $(TARGETS)
 
 clean:
 	rm -f $(TARGETS) *.log *.out *.aux
+
+tidy:
+	rm -f *~ *.log *.out *.aux
