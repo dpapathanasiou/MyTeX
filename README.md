@@ -6,12 +6,12 @@ Are traditional paper letters dead? I do still find the need to write them from 
 
 1. First, we need LaTeX itself.
 
-   - [Mac OSX](https://www.apple.com/macosx) via the [MacTeX Project](https://www.tug.org/mactex/)
-   - [Debian](http://www.debian.org/)/[Ubuntu](https://www.ubuntu.com/) Linux via apt:
-```sh
+  - [Mac OSX](https://www.apple.com/macosx) via the [MacTeX Project](https://www.tug.org/mactex/)
+  - [Debian](http://www.debian.org/)/[Ubuntu](https://www.ubuntu.com/) Linux via apt:
+  ```sh
 sudo apt-get install texlive-full latex2rtf
 ```
-   - [Downloads for other operating systems](http://latex-project.org/ftp.html)
+  - [Downloads for other operating systems](http://latex-project.org/ftp.html)
 
 2. Then, just clone this repo:
 
