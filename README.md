@@ -51,7 +51,7 @@ Any tex file starting with underscore ("<tt>_</tt>") is ignored by git, and can 
 
    <a href="http://i.imgur.com/zCs3ffN.jpg" target="_blank"><img src="http://i.imgur.com/SsvPKoH.jpg" border="0" /></a>
 
-   So the [example pdf output](personal-letter.pdf) may not make complete sense on its own.
+   So the example pdf output may not make complete sense on its own. Feel free to change the margins accordingly.
 
 * [Curriculum Vitae/Resume](cv.tex)
 
