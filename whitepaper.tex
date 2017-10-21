@@ -1,0 +1,109 @@
+% Whitepaper Template
+
+% This template is based on both cv.tex and
+% prace-latex-whitepaper by Martti Louhivuori
+
+\documentclass[letterpaper]{article}
+%\documentclass[A4]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% fonts: the mathpazo package provides a Palatino font
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% or, to use specific fonts on the system
+% (source: http://stackoverflow.com/a/1840608)
+%\usepackage{fontspec,xunicode}
+%\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+% /usr/bin/fc-list to get list of available fonts (linux)
+% cat /Library/Fonts/fonts.list | grep "\.[(dfont|otf|ttc|ttf)]" (mac osx)
+%\setmainfont[Scale=1.0]{Liberation Sans Narrow}
+%\setmonofont{Liberation Mono}
+
+% Author: name and contact details
+\def\authors{Guiseppe Pinot-Gallizio}
+\def\projectname{My Whitepaper}
+\def\title{A Bold Manifesto}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\authors},
+  pdfkeywords = {},
+  pdftitle = {\title \projectname},
+  pdfsubject = {\projectname},
+  pdfpagemode = UseNone
+}
+
+% Paper settings: 8.5x11
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+% or, A4: 210x297mm - 20mm margins
+%\geometry{text={170mm,257mm}, centering}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\projectname}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% customize the abstract block
+\renewenvironment{abstract}
+	{\noindent\rule{\textwidth}{0.1pt}
+	\small
+	\begin{center}{\bf\abstractname}\end{center}
+	\quotation}
+	{\\
+  \bf\noindent\rule{\textwidth}{0.1pt}}
+
+% no indentation for quotations
+\renewenvironment{quotation}
+	{\list{}{
+		\listparindent 0.0em
+		\itemindent    \listparindent
+		\rightmargin   \leftmargin}
+	\item\relax}
+{\endlist}
+
+
+% Actual content starts here
+\begin{document}
+
+% Title
+\begin{center}
+\huge \title
+
+{\small \authors}
+\end{center}
+
+% Abstract
+\begin{abstract}
+The return to nature with modern instrumentation will allow man, after thousands of centuries, to return to the places where Paleolithic hunters overcame great fear; modern man will seek to abandon his own, accumulated in the idiocy of progress, on contact with humble things, which nature in her wisdom has conserved as a check on the immense arrogance of the human mind.
+\end{abstract}
+
+% use \input to import separate tex files
+% as needed/desired in the overall document
+% but place them in a separate folder, to
+% avoid any problems with the Makefile
+
+% make each section an \input{} from a
+% separate tex file in tex-inputs, e.g.:
+
+\section*{Creative Destruction}
+\input{tex-inputs/whitepaper-intro}
+\subsection*{Futuristic Notions}
+\input{tex-inputs/whitepaper-visions}
+
+% (etc.)
+
+\end{document}
