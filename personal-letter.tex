@@ -1,8 +1,8 @@
 \documentclass[10pt]{letter}
 
 % margins
-% margins are, by default, 1.5 inches wide on 12pt documents, 
-% 1.75 inches wide on 11pt documents, and 
+% margins are, by default, 1.5 inches wide on 12pt documents,
+% 1.75 inches wide on 11pt documents, and
 % 1.875 inches wide on 10pt documents
 % (source: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907057)
 
@@ -19,8 +19,12 @@
 
 \usepackage{fontspec,xunicode}
 \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\setmainfont[Scale=1.0]{Liberation Sans Narrow} % /usr/bin/fc-list to get list of available fonts
-\setmonofont{Liberation Mono}
+
+% fonts
+% /usr/bin/fc-list to get list of available fonts (linux)
+% cat /Library/Fonts/fonts.list | grep "\.[(dfont|otf|ttc|ttf)]" (mac osx)
+%\setmainfont[Scale=1.0]{Liberation Sans Narrow}
+%\setmonofont{Liberation Mono}
 
 % uncomment to turn off hyphenation globally
 %\usepackage[none]{hyphenat}
@@ -31,7 +35,7 @@
 
 \signature{ } % my name (optional, appears under \closing
 
-%\date{} % defaults to current date; to override, uncomment and fill this in 
+%\date{} % defaults to current date; to override, uncomment and fill this in
 
 \begin{document}
 \begin{letter}{Contact Person\\ Company name\\ Street\\ City, State Zip}
