@@ -1,6 +1,6 @@
 % Curriculum Vitae/Resume Template
 
-% This template is based on the one created by 
+% This template is based on the one created by
 % Jason Blevins <jrblevin@sdf.lonestar.org>
 % http://jblevins.org/projects/cv-template/
 
@@ -17,7 +17,9 @@
 % (source: http://stackoverflow.com/a/1840608)
 %\usepackage{fontspec,xunicode}
 %\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-%\setmainfont[Scale=1.0]{Liberation Sans Narrow} % /usr/bin/fc-list to get list of available fonts
+% /usr/bin/fc-list to get list of available fonts (linux)
+% cat /Library/Fonts/fonts.list | grep "\.[(dfont|otf|ttc|ttf)]" (mac osx)
+%\setmainfont[Scale=1.0]{Liberation Sans Narrow}
 %\setmonofont{Liberation Mono}
 
 % Set your name here
@@ -54,11 +56,11 @@
 % Don't indent paragraphs.
 \setlength\parindent{0em}
 
-% Make lists without bullets 
+% Make lists without bullets
 % and compact line spacing
 \renewenvironment{itemize}{
   \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}    
+    \setlength{\leftmargin}{1.5em}
     \setlength{\itemsep}{1pt}
     \setlength{\parskip}{0pt}
     \setlength{\parsep}{0pt}
@@ -85,7 +87,7 @@
 % contact information
 \input{tex-inputs/cv-contact}
 
-% make each section an \input{} from a 
+% make each section an \input{} from a
 % separate tex file in tex-inputs, e.g.:
 
 %\section*{Work Experience}
