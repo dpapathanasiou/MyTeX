@@ -59,7 +59,7 @@ Any tex file starting with underscore ("<tt>_</tt>") is ignored by git, and can 
 
 * [Whitepaper](whitepaper.tex)
 
-   This template is based on both the CV, and the [prace-latex-whitepaper](https://github.com/mlouhivu/prace-latex-whitepaper) template by [Martti Louhivuori](https://github.com/mlouhivu) for the [Partnership for Advanced Computing in Europe](www.prace-ri.eu).
+   This template is based on both the CV, and the [prace-latex-whitepaper](https://github.com/mlouhivu/prace-latex-whitepaper) template by [Martti Louhivuori](https://github.com/mlouhivu) for the [Partnership for Advanced Computing in Europe](http://www.prace-ri.eu).
 
 ### Fonts
 
