@@ -57,9 +57,13 @@ Any tex file starting with underscore ("<tt>_</tt>") is ignored by git, and can 
 
    This template is based on the one created by [Jason Blevins](http://jblevins.org/projects/cv-template/), with modifications to import sections from [tex-inputs](tex-inputs) as modular tex files, using [\input](http://www.personal.ceu.hu/tex/input.htm#input).
 
+* [Whitepaper](whitepaper.tex)
+
+   This template is based on both the CV, and the [prace-latex-whitepaper](https://github.com/mlouhivu/prace-latex-whitepaper) template by [Martti Louhivuori](https://github.com/mlouhivu) for the [Partnership for Advanced Computing in Europe](www.prace-ri.eu).
+
 ### Fonts
 
-Both templates [allow the option to use local system fonts](http://stackoverflow.com/a/1840608) via the <tt>\setmainfont</tt> and <tt>\setmonofont</tt> directives in the document header.
+All templates [allow the option to use local system fonts](http://stackoverflow.com/a/1840608) via the <tt>\setmainfont</tt> and <tt>\setmonofont</tt> directives in the document header.
 
 On Linux, use <tt>/usr/bin/fc-list</tt> to get list of available fonts.
 
